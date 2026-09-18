@@ -1,0 +1,24 @@
+# Ember
+
+> A one-line-a-day journal web app. Each day, a person writes one good
+> thing and one thing they're working through, picks a mood, and Ember
+> tracks a daily streak. Entries can be turned into a shareable image
+> ("day card"). All data is stored locally in the visitor's browser;
+> there is no account system and no backend.
+
+## Pages
+
+- [Journal](https://ember-journal.app/): the main entry screen — write
+  today's entry and see the current streak.
+- [Streak](https://ember-journal.app/stats): current streak, longest
+  streak, total days logged, and full entry history.
+- [About](https://ember-journal.app/about): why the app exists and how
+  the streak logic and share cards work.
+- [Privacy](https://ember-journal.app/privacy): explains that journal
+  content never leaves the visitor's browser.
+
+## Notes for automated readers
+
+- This is a client-side-only web app (React). Journal content is
+  private per-browser and is not accessible to crawlers or scrapers.
+- Source code: https://github.com/ArchishaT/ember
